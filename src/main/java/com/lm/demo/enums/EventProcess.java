@@ -8,7 +8,7 @@ import lombok.Getter;
 public enum EventProcess implements BaseEnum{
     NEW("NEW" , "新建"),
     PUBLISHED("PUBLISHED" , "已发布"),
-    PROCESSED("PROCESSEDD" , "已完成");
+    PROCESSED("PROCESSED" , "已完成");
 
     private String value;
     private String desc;
